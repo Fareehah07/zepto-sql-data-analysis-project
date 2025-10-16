@@ -1,7 +1,7 @@
 # zepto-sql-data-analysis-project
 A hands-on, real-world SQL project using Zepto’s e-commerce data — exploring and analyzing inventory trends to draw actionable business insights.
 
-📌 Project Overview
+## 📌 Project Overview
 
 The goal of this project is to mirror how data analysts in e-commerce and retail industries use SQL to:
 
@@ -13,7 +13,7 @@ The goal of this project is to mirror how data analysts in e-commerce and retail
 
 ✅ Run business-driven SQL queries to uncover insights about pricing, stock, revenue, and discount patterns
 
-📁 Dataset Overview
+## 📁 Dataset Overview
 
 The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv) and originally scraped from Zepto’s product listings.
 
@@ -21,7 +21,7 @@ It reflects the structure of a real inventory database — where duplicate produ
 
 Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts, or categories to improve visibility – exactly how real catalog data looks.
 
-🧾 Columns:
+## 🧾 Columns:
 
 sku_id – Unique identifier for each product
 
@@ -43,7 +43,7 @@ outOfStock – Boolean showing stock status
 
 quantity – Number of units per package
 
-🔧 Project Workflow
+## 🔧 Project Workflow
 
 Here’s a step-by-step breakdown of what we do in this project:
 
@@ -116,8 +116,8 @@ Classified items by weight range (Low / Medium / Bulk)
 
 Total inventory weight per category
 
-✨ Author
+## ✨ Author
 
-Fareehah Chorghay
+## Fareehah Chorghay
 📍 [LinkedIn](https://www.linkedin.com/in/fareehah-chorghay/)
 📧 [fareehah.c@gmail.com](mailto:fareehah)

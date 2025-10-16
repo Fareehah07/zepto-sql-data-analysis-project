@@ -1,4 +1,4 @@
-# zepto-sql-data-analysis-project
+<img width="1114" height="895" alt="image" src="https://github.com/user-attachments/assets/bdccbd0d-8935-4d7f-a2f2-878bdd7ff7a1" /><img width="1114" height="895" alt="image" src="https://github.com/user-attachments/assets/4d8b505c-6005-4e45-8a08-5942e489a291" /># Zepto SQL Data Analysis Project
 A hands-on, real-world SQL project using Zepto’s e-commerce data — exploring and analyzing inventory trends to draw actionable business insights.
 
 ## 📌 Project Overview
@@ -47,7 +47,7 @@ quantity – Number of units per package
 
 Here’s a step-by-step breakdown of what we do in this project:
 
-1️⃣ Database & Table Creation
+**1️⃣ Database & Table Creation**
 
 Created a table named zepto with suitable data types for each field:
 
@@ -64,21 +64,11 @@ CREATE TABLE zepto (
   quantity INTEGER
 );
 
-2️⃣ Data Import
+**2️⃣ Data Import**
 
 Imported the CSV file into PostgreSQL using pgAdmin.
 
-If direct import failed due to encoding issues, the alternative command was:
-
-\copy zepto(category,name,mrp,discountPercent,availableQuantity,
-            discountedSellingPrice,weightInGms,outOfStock,quantity)
-FROM 'data/zepto_v2.csv'
-WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
-
-
-In case of UTF-8 errors, the CSV was re-saved in UTF-8 format to resolve the issue.
-
-3️⃣ 🔍 Data Exploration
+**3️⃣ 🔍 Data Exploration**
 
 Counted total rows and viewed sample data
 
@@ -90,7 +80,7 @@ Compared in-stock vs out-of-stock products
 
 Detected duplicate product names representing multiple SKUs
 
-4️⃣ 🧹 Data Cleaning
+**4️⃣ 🧹 Data Cleaning**
 
 Removed rows where mrp or discountedSellingPrice = 0
 
@@ -98,7 +88,7 @@ Converted paise → rupees for mrp and discountedSellingPrice
 
 Ensured all remaining fields were consistent and valid
 
-5️⃣ 📊 Business Insights
+**5️⃣ 📊 Business Insights**
 
 Top 10 best-value products based on discount %
 

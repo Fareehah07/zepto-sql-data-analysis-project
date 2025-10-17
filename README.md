@@ -69,7 +69,7 @@ CREATE TABLE zepto (
 
 Imported the CSV file into PostgreSQL using pgAdmin.
 
-**3️⃣ 🔍 Data Exploration**
+**3️⃣ Data Exploration**
 
 Counted total rows and viewed sample data
 
@@ -81,7 +81,7 @@ Compared in-stock vs out-of-stock products
 
 Detected duplicate product names representing multiple SKUs
 
-**4️⃣ 🧹 Data Cleaning**
+**4️⃣  Data Cleaning**
 
 Removed rows where mrp or discountedSellingPrice = 0
 
@@ -89,7 +89,7 @@ Converted paise → rupees for mrp and discountedSellingPrice
 
 Ensured all remaining fields were consistent and valid
 
-**5️⃣ 📊 Business Insights**
+**5️⃣ Business Insights**
 
 Top 10 best-value products based on discount %
 
@@ -109,6 +109,6 @@ Total inventory weight per category
 
 ## ✨ Author
 
-## Fareehah Chorghay
+ **Fareehah Chorghay**
 📍 [LinkedIn](https://www.linkedin.com/in/fareehah-chorghay/)
 📧 [fareehah.c@gmail.com](mailto:fareehah)

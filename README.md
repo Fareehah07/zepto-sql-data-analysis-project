@@ -110,5 +110,6 @@ Total inventory weight per category
 ## ✨ Author
 
  **Fareehah Chorghay**
+ 
 📍 [LinkedIn](https://www.linkedin.com/in/fareehah-chorghay/)
 📧 [fareehah.c@gmail.com](mailto:fareehah)
